@@ -1,0 +1,1 @@
+I removed the link so no random people can access my Trello board. Screenshots of my tests are in the manual-tests folder.

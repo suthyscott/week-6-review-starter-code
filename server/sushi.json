@@ -1,0 +1,32 @@
+[
+    {
+        "id":1,
+        "name":"Salmon Roll",
+        "image":"https://www.masalaherb.com/wp-content/uploads/2021/04/salmon-roll-gog-1.jpg",
+        "fish":"salmon"
+    },
+    {
+        "id":2,
+        "name":"Tuna Maki",
+        "image":"https://theheirloompantry.co/wp-content/uploads/2022/11/tekka-maki-tuna-sushi-roll-the-heirloom-pantry-03.jpg",
+        "fish":"tuna"
+    },
+    {
+        "id":3,
+        "name":"Unagi Roll",
+        "image":"https://i.pinimg.com/originals/21/d7/09/21d7095a9c5e9782276a6afaebd3a9db.jpg",
+        "fish":"freshwater eel"
+    },
+    {
+        "id":4,
+        "name":"Salmon Skin Roll",
+        "image":"https://www.eatthistown.ca/wp-content/uploads/2015/01/grilled-salmon-skin-roll.jpg",
+        "fish":"salmon"
+    },
+    {
+        "id":5,
+        "name":"Golden California Roll",
+        "image":"https://recipes.net/wp-content/uploads/2021/09/fried-sushi-recipe.jpg",
+        "fish":"imitation krab"
+    }
+]

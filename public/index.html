@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Noto+Sans+JP:wght@900&display=swap" rel="stylesheet">
+    <link href="./reset.css" rel="stylesheet">
+    <link href="./styles.css" rel="stylesheet">
+    <title>Week 6 Review</title>
+</head>
+<body>
+
+    <section id="intro-form">
+
+        <header>
+            <img src="./images/dragon.png"/>
+            <h1>Sushi Palace • スシパレス</h1>
+            <p>Welcome! If you couldn't tell, we sell sushi.</p>
+        </header>
+
+        <form id="request-form">
+            <h2>Request a Roll</h2>
+
+            <div>
+                <label for="form-name">Roll Name</label>
+                <input type="text" name="form-name" id="name"/>
+            </div>
+
+            <div>
+                <label for="form-image">Image</label>
+                <input type="text" name="form-image" id="image"/>
+            </div>
+
+            <div>
+                <label for="form-fish">Fish Type</label>
+                <input type="text" name="form-fish" id="fish"/>
+            </div>
+            
+            <input type="submit" name="form-submit"/>
+        </form>
+    </section>
+
+    <section id="sushi-section"></section>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="./main.js"></script>
+</body>
+</html>
