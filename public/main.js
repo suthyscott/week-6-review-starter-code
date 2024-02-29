@@ -41,7 +41,7 @@ function addSushi(event) {
 
 function getFish(event){
     axios.get(`http://localhost:6543/sushi/${event.target.parentNode.parentNode.id}`).then((res) => {
-        alert(`This roll is made with ${res.data}.`)
+        alert(`This roll is made with ${res.date}.`)
     })
 }
 
